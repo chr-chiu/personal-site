@@ -1590,7 +1590,7 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px){
-		#main .avatar img {
+		#main .profile img {
 			max-width: 12em;
 			display: block;
 			margin: 0 auto;
