@@ -1859,6 +1859,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.pic {
+				right: auto;
+				left: auto;
+				height: auto;
+				width: auto;
+			}
+
 			ul.icons li a:before {
 				font-size: 1.25	rem;
 			}
