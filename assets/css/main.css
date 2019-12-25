@@ -1591,7 +1591,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px){
 		#main .profile img {
-			max-width: 12em;
+			max-width: 1em;
 			display: block;
 			margin: 0 auto;
 			border-radius: 10px;
