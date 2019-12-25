@@ -2187,7 +2187,7 @@ input, select, textarea {
 
 					#main > .pic:hover {
 						width: 2%;
-						padding-right: 2%;
+						padding-right: 0.2em;
 					}
 
 				#main > .panel.intro header {
