@@ -1593,7 +1593,7 @@ input, select, textarea {
 		#main .avatar img {
 			max-width: 12em;
 			display: block;
-			margin: 0 auto;
+			margin: 0 0;
 			border-radius: 10px;
 			box-shadow: 0 0 0 2px #d6d6d6;
 			margin-right: 0;
