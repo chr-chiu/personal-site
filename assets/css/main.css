@@ -2404,6 +2404,14 @@ input, select, textarea {
 						padding: 4em 2em 2.5em 2em ;
 						width: 100%;
 					}
+					
+					#main .avatar img {
+						max-width: 12em;
+						display: block;
+						margin: 0 auto;
+						border-radius: 10px;
+						box-shadow: 0 0 0 2px #d6d6d6;
+					}
 		
 				}
 
