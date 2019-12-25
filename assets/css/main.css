@@ -2277,7 +2277,7 @@ input, select, textarea {
 						top: 0;
 						/* left: 0; */
 						background: url("images/overlay.png");
-						width: 10%;
+						width: 100%;
 						height: 100%;
 						/* padding-right: 10em; */
 						z-index: 1;
@@ -2289,7 +2289,7 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						/* left: 0; */
-						width: 10%;
+						width: 100%;
 						height: 100%;
 						/* padding-right: 30%; */
 						-moz-object-fit: cover;
@@ -2377,7 +2377,7 @@ input, select, textarea {
 
 						#main > .panel.intro .pic {
 							height: 25em;
-							width: 100%;
+							width: 50%;
 						}
 
 						#main > .panel.intro header {
