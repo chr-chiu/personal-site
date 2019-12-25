@@ -2414,11 +2414,8 @@ input, select, textarea {
 					}
 
 					#main .avatar img {
-						max-width: 1em;
-						display: block;
-						margin: 0 auto;
-						border-radius: 10px;
-						box-shadow: 0 0 0 0 #d6d6d6;
+						width: 1%;
+						height: 1%;
 					}
 		
 				}
