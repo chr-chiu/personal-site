@@ -2170,7 +2170,7 @@ input, select, textarea {
 
 						#main > .panel.intro .pic .arrow:before {
 							position: relative;
-							right: 10;
+							right: 2%;
 							padding-right: 0;
 							top: 0.125em;
 						}
