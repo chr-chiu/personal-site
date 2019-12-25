@@ -1559,6 +1559,11 @@ input, select, textarea {
 
 		}
 
+		.header .profile-image {
+			float: none !important;
+			margin: 0 auto
+		}
+
 /* Image */
 	.profile {
 		right: 17.5px;
@@ -2244,6 +2249,39 @@ input, select, textarea {
 						}
 
 				}
+
+				#main .avatar {
+					position: relative;
+					display: block;
+					margin-bottom: 1.5em;
+					margin-top: 1.5em;
+				}
+		
+					#main .avatar img {
+						max-width: 12em;
+						display: block;
+						margin: 0 auto;
+						border-radius: 10px;
+						box-shadow: 0 0 0 2px #d6d6d6;
+					}
+		
+				@media screen and (max-width: 480px) {
+		
+					#main {
+						padding: 4em 2em 2.5em 2em ;
+						width: 100%;
+					}
+		
+				}
+		
+				body.is-preload #main {
+					-moz-transform: rotateX(15deg);
+					-webkit-transform: rotateX(15deg);
+					-ms-transform: rotateX(15deg);
+					transform: rotateX(15deg);
+					opacity: 0;
+				}
+		
 
 /* Footer */
 
