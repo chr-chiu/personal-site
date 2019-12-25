@@ -1860,9 +1860,9 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.pic {
-				right: 2%;
-				bottom: 2%;
-				left: 2%;
+				margin-right: 2%;
+				margin-bottom: 2%;
+				margin-left: 2%;
 			}
 
 			html, body {
