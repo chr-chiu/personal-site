@@ -2211,7 +2211,7 @@ input, select, textarea {
 					}
 					
 
-				@media screen and (max-width: 480px) {
+				/* @media screen and (max-width: 480px) {
 
 					#main > .panel.intro {
 						-moz-flex-direction: column;
@@ -2229,11 +2229,11 @@ input, select, textarea {
 						#main > .panel.intro header {
 							padding: 4em;
 							text-align: center;
-						}
+						} */
 
 				}
-
-				@media screen and (max-width: 480px) {
+/* 
+				@media screen and (max-width: px) {
 
 					#main > .panel.intro .pic {
 						height: 20em;
@@ -2248,7 +2248,7 @@ input, select, textarea {
 							margin: 0.25em 0 0 0;
 						}
 
-				}
+				} */
 
 				#main .avatar {
 					position: relative;
