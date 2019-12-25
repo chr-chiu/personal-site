@@ -2182,7 +2182,7 @@ input, select, textarea {
 
 					#main > .panel.intro .pic:hover .arrow {
 						width: 3em;
-						padding-right: 0.25em;
+						/* padding-right: 0.25em; */
 					}
 
 				#main > .panel.intro header {
