@@ -1346,7 +1346,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
-				background-image: url("images/overlay.png"), url("images/bg2.jpg");
+				background-image: url("images/overlay.png"), url("images/bg.jpg");
 			}
 
 		}
@@ -1355,7 +1355,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				background-image: url("images/overlay.png"), url("images/bg2.jpg");
+				background-image: url("images/overlay.png"), url("images/bg.jpg");
 			}
 
 		}
