@@ -2465,9 +2465,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#footer .copyright li {
+			/* #footer .copyright li {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
-			}
+			} */
 
 		}
