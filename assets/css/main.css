@@ -1599,7 +1599,7 @@ input, select, textarea {
 			}
 
 		.profile {
-			right: 0;
+			width: 100%;
 		}
 	}
 
