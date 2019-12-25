@@ -1361,6 +1361,20 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+
+			html, body {
+				min-width: 320px;
+			}
+
+			h1 {
+				font-size: 1.65em;
+			}
+		
+			
+	
+		}
+
 		@media screen and (max-width: 360px) {
 
 			body, input, textarea, select {
@@ -1759,6 +1773,57 @@ input, select, textarea {
 				}
 
 		}
+		@media screen and (max-width: 480px) {
+
+			ul.actions:not(.fixed) {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
+			}
+
+				ul.actions:not(.fixed) li {
+					-moz-flex-grow: 1;
+					-webkit-flex-grow: 1;
+					-ms-flex-grow: 1;
+					flex-grow: 1;
+					-moz-flex-shrink: 1;
+					-webkit-flex-shrink: 1;
+					-ms-flex-shrink: 1;
+					flex-shrink: 1;
+					padding: 0.75em 0 0 0;
+					text-align: center;
+					width: 100%;
+				}
+
+					ul.actions:not(.fixed) li > * {
+						width: 100%;
+					}
+
+					ul.actions:not(.fixed) li:first-child {
+						padding-top: 0;
+					}
+
+					ul.actions:not(.fixed) li input[type="submit"],
+					ul.actions:not(.fixed) li input[type="reset"],
+					ul.actions:not(.fixed) li input[type="button"],
+					ul.actions:not(.fixed) li button,
+					ul.actions:not(.fixed) li .button {
+						width: 100%;
+					}
+
+						ul.actions:not(.fixed) li input[type="submit"].icon:before,
+						ul.actions:not(.fixed) li input[type="reset"].icon:before,
+						ul.actions:not(.fixed) li input[type="button"].icon:before,
+						ul.actions:not(.fixed) li button.icon:before,
+						ul.actions:not(.fixed) li .button.icon:before {
+							margin-left: -0.5rem;
+						}
+
+		}
+
 
 /* Icon */
 
@@ -1808,60 +1873,68 @@ input, select, textarea {
 		margin-top: -0.675em;
 	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 0.675em 0.15em;
+	ul.icons li {
+		display: inline-block;
+		padding: 0.675em 0.15em;
+	}
+
+	ul.icons li a {
+			text-decoration: none;
+			position: relative;
+			display: block;
+			width: 3em;
+			height: 3em;
+			border-radius: 100%;
+			border: solid 0px black;
+			line-height: 3.75em;
+			overflow: hidden;
+			text-align: center;
+			text-indent: 3.75em;
+			white-space: nowrap;
 		}
 
-			ul.icons li a {
-				text-decoration: none;
-				position: relative;
-				display: block;
-				width: 3em;
-				height: 3em;
-				border-radius: 100%;
-				border: solid 0px black;
-				line-height: 3.75em;
-				overflow: hidden;
-				text-align: center;
-				text-indent: 3.75em;
-				white-space: nowrap;
-			}
+	ul.icons li a:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
 
-				ul.icons li a:before {
-					-moz-osx-font-smoothing: grayscale;
-					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
-					font-style: normal;
-					font-weight: normal;
-					text-transform: none !important;
-				}
+	ul.icons li a:before {
+		color: #ffffff;
+		text-shadow: 1px 0px 0px #b4b7ba, -1px 0px 0px #b4b7ba, 0px 1px 0px #b4b7ba, 0px -1px 0px #b4b7ba;
+	}
 
-				ul.icons li a:before {
-					color: #ffffff;
-					text-shadow: 1px 0px 0px #b4b7ba, -1px 0px 0px #b4b7ba, 0px 1px 0px #b4b7ba, 0px -1px 0px #b4b7ba;
-				}
+	ul.icons li a:hover:before {
+		text-shadow: 1.25px 0px 0px #8c8e90, -1.25px 0px 0px #8c8e90, 0px 1.25px 0px #8c8e90, 0px -1.25px 0px #8c8e90;
+	}
 
-				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #8c8e90, -1.25px 0px 0px #8c8e90, 0px 1.25px 0px #8c8e90, 0px -1.25px 0px #8c8e90;
-				}
+	ul.icons li a:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: inherit;
+		height: inherit;
+		font-size: 1.25rem;
+		line-height: inherit;
+		text-align: center;
+		text-indent: 0;
+	}
 
-				ul.icons li a:before {
-					position: absolute;
-					top: 0;
-					left: 0;
-					width: inherit;
-					height: inherit;
-					font-size: 1.25rem;
-					line-height: inherit;
-					text-align: center;
-					text-indent: 0;
-				}
+	ul.icons li a:hover {
+		border-color: #ff7496;
+	}
+	
+	@media screen and (max-width: 480px) {
 
-				ul.icons li a:hover {
-					border-color: #ff7496;
-				}
+		ul.icons li a:before {
+			font-size: 1.25	rem;
+		}
 
+	}
+			
 		/* @media screen and (max-width: 480px) {
 
 			html, body {
@@ -2315,6 +2388,16 @@ input, select, textarea {
 						}
 
 				}
+
+				@media screen and (max-width: 480px) {
+
+					#main {
+						padding: 4em 2em 2.5em 2em ;
+						width: 100%;
+					}
+		
+				}
+
 
 /* Footer */
 
