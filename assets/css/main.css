@@ -2186,7 +2186,7 @@ input, select, textarea {
 					}
 
 					#main > .pic:hover {
-						width: 2%;
+						width: 3em;
 						padding-right: 0.2em;
 					}
 
