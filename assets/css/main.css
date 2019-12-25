@@ -1599,8 +1599,8 @@ input, select, textarea {
 			}
 
 		.profile {
-			width: auto;
-			height: auto;
+			width: 90%;
+			height: 95%;
 		}
 	}
 
