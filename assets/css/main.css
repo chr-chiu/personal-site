@@ -2150,7 +2150,7 @@ input, select, textarea {
 					#main > .panel.intro .pic .arrow {
 						display: block;
 						position: absolute;
-						right: 0;
+						/* right: 0; */
 						top: 50%;
 						margin-top: -1.375em;
 						width: 2.75em;
