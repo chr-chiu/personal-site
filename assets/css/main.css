@@ -2180,15 +2180,15 @@ input, select, textarea {
 							text-indent: -9999px;
 						}
 
-					#main > .panel.intro .arrow {
+					#main > .panel.intro .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
 					}
-
+/* 
 					#main > .pic:hover {
 						width: 3em;
 						padding-right: 0.2em;
-					}
+					} */
 
 				#main > .panel.intro header {
 					-moz-flex-grow: 1;
