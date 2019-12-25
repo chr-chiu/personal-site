@@ -1583,7 +1583,7 @@ input, select, textarea {
 
 /* Image */
 	.profile {
-		right: 2%;
+		right: 0;
 		border-radius: 7.5px;
 		/* border:2px solid #000; */
 
