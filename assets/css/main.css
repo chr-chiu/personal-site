@@ -1345,6 +1345,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 		}
@@ -1353,6 +1354,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 		}
@@ -1361,7 +1363,7 @@ input, select, textarea {
 
 			html, body {
 				min-width: 320px;
-				background-image: url("images/overlay.png"), url("images/bg.jpg");
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 			h1 {
@@ -1600,8 +1602,7 @@ input, select, textarea {
 			}
 
 		.profile {
-			width: 90%;
-			height: 95%;
+			margin: 0 0 0 0;
 		}
 	}
 
