@@ -1595,7 +1595,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px){
 		#main .avatar img {
-				max-width: 12em;
+				/* max-width: 12em; */
 				display: block;
 				margin: 0 auto;
 				border-radius: 10px;
@@ -1603,7 +1603,8 @@ input, select, textarea {
 			}
 
 		.profile {
-			height: 1em;
+
+			/* height: 1em; */
 			/* margin: 0 0 0 0; */
 		}
 	}
