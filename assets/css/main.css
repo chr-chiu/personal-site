@@ -2110,6 +2110,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
+			img.pic {
+				padding-right: 2px;
+				padding-bottom: 2px;
+				padding-left: 2px;
+			}
 
 			#wrapper {
 				padding: 1em 0;
