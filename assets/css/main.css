@@ -1602,7 +1602,8 @@ input, select, textarea {
 			}
 
 		.profile {
-			margin: 0 0 0 0;
+			height: 1em;
+			/* margin: 0 0 0 0; */
 		}
 	}
 
