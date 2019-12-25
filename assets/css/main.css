@@ -2413,7 +2413,7 @@ input, select, textarea {
 						width: 100%;
 					}
 
-					#main .avatar img {
+					#main .avatar .profile img {
 						width: 1%;
 						height: 1%;
 					}
