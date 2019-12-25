@@ -2233,7 +2233,7 @@ input, select, textarea {
 
 				}
 
-				@media screen and (max-width: 736px) {
+				@media screen and (max-width: 480px) {
 
 					#main > .panel.intro .pic {
 						height: 20em;
