@@ -1370,10 +1370,17 @@ input, select, textarea {
 			h1 {
 				font-size: 1.65em;
 			}
+			
+			body, input, select, textarea {
+				font-size: 10pt;
+				line-height: 1.75;
+			}
 		
 			
 	
 		}
+		
+		
 
 		@media screen and (max-width: 360px) {
 
