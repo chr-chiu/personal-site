@@ -1560,6 +1560,16 @@ input, select, textarea {
 		}
 
 /* Image */
+	.profile {
+		right: 17.5px;
+		border-radius: 7.5px;
+		/* border:2px solid #000; */
+
+	}
+
+	.roundedcorner {
+		border-radius: 25px;
+	}
 
 	.image {
 		display: inline-block;
@@ -2032,6 +2042,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		border-radius: 7.5px;
 		position: relative;
 		overflow: hidden;
 		width: 100%;
@@ -2086,6 +2097,7 @@ input, select, textarea {
 				#main > .panel.intro .pic {
 					text-decoration: none;
 					position: relative;
+					/* right: 10px; */
 					-moz-flex-grow: 0;
 					-webkit-flex-grow: 0;
 					-ms-flex-grow: 0;
@@ -2095,7 +2107,8 @@ input, select, textarea {
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
 					width: 17em;
-					height: 100%;
+					/* width: 40%; */
+					height: 92%;
 				}
 
 					#main > .panel.intro .pic:before {
@@ -2106,6 +2119,7 @@ input, select, textarea {
 						background: url("images/overlay.png");
 						width: 100%;
 						height: 100%;
+						/* padding-right: 10em; */
 						z-index: 1;
 					}
 
@@ -2117,6 +2131,7 @@ input, select, textarea {
 						left: 0;
 						width: 100%;
 						height: 100%;
+						/* padding-right: 30%; */
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
@@ -2150,6 +2165,7 @@ input, select, textarea {
 
 						#main > .panel.intro .pic .arrow:before {
 							position: relative;
+							right: 10;
 							padding-right: 0;
 							top: 0.125em;
 						}
