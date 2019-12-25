@@ -1419,6 +1419,12 @@ input, select, textarea {
 			font-size: 1em;
 		}
 
+		img.pic {
+			padding-right: 2px;
+			padding-bottom: 2px;
+			padding-left: 2px;
+		}
+
 	}
 
 	blockquote {
