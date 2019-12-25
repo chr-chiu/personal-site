@@ -2180,9 +2180,9 @@ input, select, textarea {
 							text-indent: -9999px;
 						}
 
-					#main > .panel.intro .pic:hover .arrow {
+					#main > .panel.intro  .arrow {
 						width: 3em;
-						/* padding-right: 0.25em; */
+						padding-right: 0.25em;
 					}
 
 				#main > .panel.intro header {
