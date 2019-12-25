@@ -1334,6 +1334,12 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			img.pic {
+				padding-right: 2px;
+				padding-bottom: 2px;
+				padding-left: 2px;
+			}
+
 			body, input, textarea, select {
 				font-size: 15pt;
 			}
@@ -1341,6 +1347,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			img.pic {
+				padding-right: 2px;
+				padding-bottom: 2px;
+				padding-left: 2px;
+			}
 
 			body, input, textarea, select {
 				font-size: 14pt;
@@ -1349,6 +1360,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			img.pic {
+				padding-right: 2px;
+				padding-bottom: 2px;
+				padding-left: 2px;
+			}
 
 			body, input, textarea, select {
 				font-size: 12pt;
