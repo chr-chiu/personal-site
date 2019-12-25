@@ -2414,16 +2414,7 @@ input, select, textarea {
 					}
 		
 				}
-
-				@media screen and (max-width: 360px) {
-					#main .avatar img {
-						max-width: 12em;
-						display: block;
-						margin: 0 auto;
-						border-radius: 10px;
-						box-shadow: 0 0 0 2px #d6d6d6;
-					}
-				}
+				
 
 
 /* Footer */
