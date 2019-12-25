@@ -2406,7 +2406,7 @@ input, select, textarea {
 
 				}
 
-				@media screen and (max-width: 480px) {
+				@media screen and (max-width: 380px) {
 
 					#main {
 						padding: 4em 2em 2.5em 2em ;
