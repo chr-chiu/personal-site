@@ -2077,7 +2077,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .panel {
-					padding: 2em 1.5em 1.5em 1.5em;
+					padding: 1.5em 1.5em 1.5em 1.5em;
 				}
 
 			}
