@@ -2228,6 +2228,8 @@ input, select, textarea {
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-ms-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
+		box-shadow: 0 0 0 2px #d6d6d6;
+
 	}
 
 		#main > .panel {
@@ -2239,7 +2241,6 @@ input, select, textarea {
 			position: relative;
 			padding: 3.5em 2.5em 2.5em 2.5em;
 			width: 100%;
-			box-shadow: 0 0 0 2px #d6d6d6;
 		}
 
 			#main > .panel.inactive {
