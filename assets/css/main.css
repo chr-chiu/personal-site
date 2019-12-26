@@ -2429,7 +2429,7 @@ input, select, textarea {
 						width: 100%;
 					}
 
-					#main .avatar img {
+					.avatar img {
 						max-width: 1em;
 						display: block;
 						/* margin-left: auto;
