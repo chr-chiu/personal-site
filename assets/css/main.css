@@ -1607,8 +1607,8 @@ input, select, textarea {
 			margin-left: 0;
 			margin-right: 0;
 			/* min-width: 50%; */
-			max-height: 18%;
-			max-width: 22%;
+			max-height: 18em;
+			max-width: 12em;
 			/* height: 1em; */
 			/* margin: 0 0 0 0; */
 		}
