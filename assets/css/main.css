@@ -1355,7 +1355,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				background-image: url("images/overlay.png"), url("images/bg2.jpg");
+				background-image: url("images/overlay.png"), url("images/bg2jpg");
 			}
 
 		}
@@ -1589,6 +1589,7 @@ input, select, textarea {
 	.profile {
 		right: 2%;
 		border-radius: 7.5px;
+		box-shadow: 0 0 0 2px #d6d6d6;
 		/* border:2px solid #000; */
 
 	}
@@ -1599,7 +1600,7 @@ input, select, textarea {
 				display: block;
 				/* margin: 0 auto; */
 				border-radius: 10px;
-				box-shadow: 0 0 0 2px #d6d6d6;
+				/* box-shadow: 0 0 0 2px #d6d6d6; */
 			}
 
 		.profile {
@@ -1607,7 +1608,7 @@ input, select, textarea {
 			margin-left: 0;
 			margin-right: 0;
 			/* min-width: 50%; */
-			max-height: 15em;
+			max-height: 14em;
 			max-width: 12em;
 			/* height: 1em; */
 			/* margin: 0 0 0 0; */
@@ -2238,6 +2239,7 @@ input, select, textarea {
 			position: relative;
 			padding: 3.5em 2.5em 2.5em 2.5em;
 			width: 100%;
+			box-shadow: 0 0 0 2px #d6d6d6;
 		}
 
 			#main > .panel.inactive {
