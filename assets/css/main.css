@@ -1346,7 +1346,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
-				background-image: url("images/overlay.png"), url("images/bg.jpg");
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 		}
@@ -1355,7 +1355,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				background-image: url("images/overlay.png"), url("images/bg.jpg");
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 		}
@@ -1364,7 +1364,7 @@ input, select, textarea {
   
 			html, body {
 				min-width: 320px;
-				background-image: url("images/overlay.png"), url("images/bg.jpg");
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 			h1 {
@@ -1607,7 +1607,7 @@ input, select, textarea {
 			margin-left: 0;
 			margin-right: 0;
 			/* min-width: 50%; */
-			max-height: 25%;
+			max-height: 1px;
 			/* height: 1em; */
 			/* margin: 0 0 0 0; */
 		}
