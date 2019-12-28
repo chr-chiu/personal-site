@@ -1355,7 +1355,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				background-image: url("images/overlay.png"), url("images/bg2jpg");
+				background-image: url("images/overlay.png"), url("images/bg2.jpg");
 			}
 
 		}
@@ -1613,6 +1613,10 @@ input, select, textarea {
 			/* height: 1em; */
 			/* margin: 0 0 0 0; */
 		}
+	}
+
+	@media screen and (max-width: 736px) {
+
 	}
 
 	.roundedcorner {
