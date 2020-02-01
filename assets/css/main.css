@@ -1346,7 +1346,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
-				background-image: url("images/overlay.png"), url("images/ttcStreetCar.jpg");
+				background-image: url("images/overlay.png"), url("images/ttc.jpg");
 			}
 
 		}
@@ -1355,7 +1355,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				background-image: url("images/overlay.png"), url("images/ttcStreetCar.jpg");
+				background-image: url("images/overlay.png"), url("images/ttc.jpg");
 			}
 
 		}
@@ -1596,6 +1596,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px){
 		#main .avatar img {
+		
 				/* max-width: 12em; */
 				display: block;
 				/* margin: 0 auto; */
@@ -1609,7 +1610,7 @@ input, select, textarea {
 			margin-right: 0;
 			/* min-width: 50%; */
 			max-height: 14em;
-			max-width: 14em;
+			max-width: 24em;
 			/* height: 1em; */
 			/* margin: 0 0 0 0; */
 		}
@@ -2290,7 +2291,7 @@ input, select, textarea {
 					flex-shrink: 0;
 					width: 17em;
 					/* width: 40%; */
-					height: 92%;
+					/* height: 92%; */
 				}
 
 					#main > .panel.intro .pic:before {
@@ -2299,8 +2300,8 @@ input, select, textarea {
 						top: 0;
 						/* left: 0; */
 						background: url("images/overlay.png");
-						width: 100%;
-						height: 100%;
+						/* width: 100%;
+						height: 100%; */
 						/* padding-right: 10em; */
 						z-index: 1;
 					}
@@ -2311,8 +2312,8 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						/* left: 0; */
-						width: 100%;
-						height: 100%;
+						/* width: 100%; */
+						/* height: 100%; */
 						/* padding-right: 30%; */
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
@@ -2398,8 +2399,8 @@ input, select, textarea {
 					}
 
 						#main > .panel.intro .pic {
-							height: 25em;
-							width: 50%;
+							/* height: 25em; */
+							/* width: 50%; */
 						}
 
 						#main > .panel.intro header {
@@ -2412,7 +2413,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
-						height: 20em;
+						/* height: 20em; */
 					}
 
 					#main > .panel.intro header {
